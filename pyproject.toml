@@ -1,0 +1,16 @@
+[project]
+name = "bst-and-heap-algorithms"
+version = "0.1.0"
+description = "Homework project with Binary Search Tree algorithms and heap-based cable connection optimization."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.pyright]
+extraPaths = ["."]
+executionEnvironments = [
+  { root = "." }
+]
